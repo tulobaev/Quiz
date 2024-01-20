@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: blueviolet;
+}
+.main_game {
+  width: 330px;
+  height: 400px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+.game h2 {
+  margin-top: 30px;
+  text-align: center;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.game_nam {
+  align-items: center;
+  margin-top: 100px;
+  cursor: pointer;
+}
+.game_nam li {
+  width: 300px;
+  height: 40px;
+  border: 1px solid gray;
+  text-align: center;
+  color: black;
+  margin-top: 30px;
+  border-radius: 20px;
+  list-style: none;
+}
+ul li {
+  list-style: none;
+  width: 300px;
+  height: 30px;
+  border: 1px solid gray;
+  text-align: center;
+  margin-top: 30px;
+  border-radius: 20px;
+}
+.game_nam {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100px;
+}
+
+a {
+  text-decoration: none;
+}
+.boxRes {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  margin-left: 300px;
+}
+
+.hap {
+  background-color: aqua;
+  width: 300px;
+  height: 450px;
+  margin-left: 460px;
+  margin-top: 100px;
+  border-radius: 10px;
+}
+.happy img {
+  width: 300px;
+  height: 250px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+.hap button {
+  width: 200px;
+  height: 40px;
+  border-radius: 6px;
+  cursor: pointer;
+  background: red;
+  color: #fff;
+  font-weight: 500;
+  font-size: 20px;
+  border: none;
+  margin-top: 50px;
+  margin-left: 50px;
+  transition: 1s;
+}
